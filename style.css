@@ -17,3 +17,70 @@ img{
     display: block; 
     margin: auto;
 }
+
+.titulo {
+    text-align: center;
+    color: #e30f5d;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.lista-peliculas {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.lista-peliculas li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.lista-peliculas li:hover {
+    background: #ddd;
+}
+
+
+.tabla-horario {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    display: table;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.tabla-horario th, .tabla-horario td {
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.colores {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.color {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.verde {
+    background-color: green;
